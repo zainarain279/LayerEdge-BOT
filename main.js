@@ -73,14 +73,14 @@ class WalletDashboard {
 
   getApi() {
     return axios.create({
-      baseURL: "https://referral-api.layeredge.io/api",
+      baseURL: "https://referralapi.layeredge.io/api",
       headers: {
         Accept: "*/*",
         "Accept-Encoding": "gzip, deflate, br",
         "Accept-Language": "en-US,en;q=0.9",
         "Content-Type": "application/json",
-        Origin: "https://referral-api.layeredge.io",
-        Referer: "https://referral-api.layeredge.io/",
+        Origin: "https://referralapi.layeredge.io",
+        Referer: "https://referralapi.layeredge.io/",
         "User-Agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       },
