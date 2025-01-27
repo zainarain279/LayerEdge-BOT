@@ -1,4 +1,4 @@
-import { ethers } from "ethers";
+const { ethers } = require('ethers');
 import fs from "fs/promises";
 import readline from "readline";
 import log from "./utils/logger.js";
